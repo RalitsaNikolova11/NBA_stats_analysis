@@ -48,6 +48,7 @@ ORDER BY avg_assists DESC;
 
 ## EXCEL DASHBOARD
 The dashboards consists of 4 key visualisations:
+
 -Top 10 players by points
 -Number of foreign players by country
 -Average points by position
@@ -58,8 +59,11 @@ The dashboards consists of 4 key visualisations:
 ![Screenshot 2025-06-10 154833](https://github.com/user-attachments/assets/80c36b4a-d346-4071-a7d7-5db010ce3448)
 
 ## DATASET INFORMATION
+
 **Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)
+
 **Data Format:** CSV
+
 **Key Columns:** 
 - PLAYER_FIRST_NAME, PLAYER_LAST_NAME, POSITION, COUNTRY
 - PTS, AST
