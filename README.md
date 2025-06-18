@@ -1,4 +1,4 @@
-# 🏀 NBA player stats analysis 🏀
+# 🏀 NBA Player Stats Analysis 🏀
 Using SQL and Excel to analyse NBA player statistics and visualise the findings in a dashboard
 
 
