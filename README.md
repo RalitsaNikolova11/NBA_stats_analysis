@@ -19,32 +19,32 @@ The goal is to explore player performance, country representation, positional tr
 ## Analysis Queries
 1. Top 10 players by points
 
-SELECT PLAYER_FIRST_NAME, PLAYER_LAST_NAME, TEAM_NAME, PTS   
-FROM stats
-ORDER BY PTS DESC
-LIMIT 10;
+SELECT PLAYER_FIRST_NAME, PLAYER_LAST_NAME, TEAM_NAME, PTS  
+FROM stats  
+ORDER BY PTS DESC  
+LIMIT 10;  
 
 2. Player count by country
 
-SELECT COUNTRY, COUNT(*) AS num_players  
-FROM stats
-WHERE COUNTRY != 'USA'
-GROUP BY COUNTRY
-ORDER BY num_players DESC; 
+SELECT COUNTRY, COUNT(*) AS num_players    
+FROM stats  
+WHERE COUNTRY != 'USA'  
+GROUP BY COUNTRY  
+ORDER BY num_players DESC;   
 
 3. Average points by position
 
-SELECT POSITION, ROUND(AVG(PTS), 2) AS avg_points  
-FROM stats
-GROUP BY POSITION
-ORDER BY avg_points DESC;
+SELECT POSITION, ROUND(AVG(PTS), 2) AS avg_points    
+FROM stats  
+GROUP BY POSITION  
+ORDER BY avg_points DESC;  
 
 4. Highest assists per team
 
-SELECT TEAM_NAME, ROUND(AVG(AST), 2) AS avg_assists 
-FROM stats
-GROUP BY TEAM_NAME
-ORDER BY avg_assists DESC;
+SELECT TEAM_NAME, ROUND(AVG(AST), 2) AS avg_assists   
+FROM stats  
+GROUP BY TEAM_NAME  
+ORDER BY avg_assists DESC;  
 
 
 ## Excel Dashboard
@@ -67,11 +67,9 @@ The dashboards consists of 4 key visualisations:
 
 ## Dataset Information
 
-**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)
-
-**Data Format:** CSV
-
-**Key Columns:** 
+**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)  
+**Data Format:** CSV  
+**Key Columns:**   
 - PLAYER_FIRST_NAME, PLAYER_LAST_NAME, POSITION, COUNTRY
 - PTS, AST
 
