@@ -50,10 +50,10 @@ ORDER BY avg_assists DESC;
 ## Excel Dashboard
 The dashboards consists of 4 key visualisations:
 
--Top 10 players by points
--Number of foreign players by country
--Average points by position
--Top 10 teams with the highest assists
+-Top 10 players by points  
+-Number of foreign players by country  
+-Average points by position  
+-Top 10 teams with the highest assists  
 
 ## Dashboard Preview
 
