@@ -11,10 +11,20 @@ The goal is to explore player performance, country representation, positional tr
 - Excel for visualisation and dashboard creation
 
 
+## Dataset Information
+
+**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)  
+**Data Format:** CSV  
+**Key Columns:**   
+- PLAYER_FIRST_NAME, PLAYER_LAST_NAME, POSITION, COUNTRY
+- PTS, AST
+
+
 ## Cleaning Steps
 - Checked for missing values
 - Checked for duplicates
 - Checked if country names are standardised
+
 
 ## Analysis Queries
 1. Top 10 players by points
@@ -55,9 +65,6 @@ The dashboards consists of 4 key visualisations:
 - Average points by position  
 - Top 10 teams with the highest assists  
 
-## Dashboard Preview
-
-![Screenshot 2025-06-10 154833](https://github.com/user-attachments/assets/80c36b4a-d346-4071-a7d7-5db010ce3448)
 
 ## Key Insights
 - Giannis Antetokounmpo stands out as the highest-scoring player in the dataset
@@ -65,12 +72,7 @@ The dashboards consists of 4 key visualisations:
 - Forward Guard players have the highest average points per player among all positions, followed by other Forward positions
 - Hornets lead in average player assists, with a significant margin over other teams
 
-## Dataset Information
 
-**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)  
-**Data Format:** CSV  
-**Key Columns:**   
-- PLAYER_FIRST_NAME, PLAYER_LAST_NAME, POSITION, COUNTRY
-- PTS, AST
+## Dashboard Preview
 
-
+![Screenshot 2025-06-10 154833](https://github.com/user-attachments/assets/80c36b4a-d346-4071-a7d7-5db010ce3448)
