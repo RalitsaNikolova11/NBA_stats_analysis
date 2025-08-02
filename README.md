@@ -13,7 +13,7 @@ The goal is to explore player performance, country representation, positional tr
 
 ## Dataset Information
 
-**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/unsdsn/world-happiness/data)  
+**Source:** [NBA Players Database (via Kaggle)](https://www.kaggle.com/datasets/yagizfiratt/nba-players-database/data)  
 **Data Format:** CSV  
 **Key Columns:**   
 - PLAYER_FIRST_NAME, PLAYER_LAST_NAME, POSITION, COUNTRY
